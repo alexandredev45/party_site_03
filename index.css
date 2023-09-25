@@ -1,0 +1,455 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    padding: 0 8rem;
+    background-color: rgba(127, 255, 212, 0.322);
+}
+header{
+    margin: auto;
+    width: 100%;
+    height: 4rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 0px;
+}
+#redes a{
+    text-decoration: none;
+    margin: 0 0.4rem;
+}
+#video{
+    width: 100%;
+}
+#video iframe{
+    width: 100%;
+    height: 45rem;
+}
+#boxCard{
+    padding: 1rem;
+    background-color: transparent;
+    border: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-top: -10rem;
+}
+.card{
+    width: 20%;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 0.5rem;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+    margin: 0 4rem;
+}
+.card img{
+    width: 94%;
+    height: 180px;
+    object-fit: cover;
+    margin: 0.5rem;
+    border: 1px  solid black;
+    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+}
+#boxVideo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 5rem;
+}
+footer{
+    margin: auto;
+    width: 100%;
+    height: 4rem;
+    background-color: #000;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+footer .logo{
+    padding: 0.5rem;
+}
+footer a{
+    color: #fff;
+    text-decoration: none;
+}
+
+@media screen and (max-width:1500px) {
+    body{
+        /*background-color: aqua;*/
+        padding: 0 1rem;
+    }
+    #boxCard{
+        padding: 1rem;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: -8rem;
+    }
+    .card{
+        width: 30%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 0.5rem;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+        margin: 0 4rem;
+    }
+    .card img{
+        width: 94%;
+        height: 180px;
+        object-fit: cover;
+        margin: 0.5rem;
+        border: 1px  solid black;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+    }
+}
+/**/
+@media screen and (max-width:1350px) {
+    body{
+        /*background-color: rgb(255, 60, 0);*/
+        padding: 0 1rem;
+    }
+    
+}
+
+@media screen and (max-width:1100px) {
+    body{
+        /*background-color: rgb(0, 47, 255);*/
+        padding: 0 1rem;
+    }
+    #video{
+        width: 100%;
+    }
+    #video iframe{
+        width: 100%;
+        height: 30rem;
+    }
+    #boxCard{
+        padding: 1rem;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -5rem;
+    }
+    .card{
+        width: 28%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 0.5rem;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+        margin: 0 1rem;
+    }
+    .card img{
+        width: 94%;
+        height: 140px;
+        object-fit: cover;
+        margin: 0.5rem;
+        border: 1px  solid black;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+    }
+    
+}
+
+@media screen and (max-width: 800px){
+    body{
+        /*background-color: rgb(225, 0, 255);*/
+        padding: 0 1rem;
+    }
+    #video{
+        width: 100%;
+    }
+    #video iframe{
+        width: 100%;
+        height: 30rem;
+    }
+    #boxCard{
+        padding: 1rem;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        margin-top: -5rem;
+    }
+    .card{
+        width: 25%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 0.5rem;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+        margin: 0 rem;
+    }
+    .card img{
+        width: 100%;
+        height: 100px;
+        object-fit: cover;
+        margin: 0.5rem auto;
+        border: 1px  solid black;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+    }
+}
+@media screen and (max-width: 700px){
+    body{
+        /*background-color: rgb(255, 153, 0);*/
+        padding: 0 0rem;
+    }
+    #video{
+        width: 100%;
+        margin-top: 10px;
+    }
+    #video iframe{
+        width: 100%;
+        height: 20rem;
+        margin: auto;
+    }
+    #boxCard{
+        width: 100%;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: space-around;
+        margin: 0;
+        padding: 0;
+    }
+    .card{
+        width: 35%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 0rem 0.25rem ;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+    }
+    .card img{
+        width: 100%;
+        height: 80px;
+        object-fit: cover;
+        margin: 0.5rem auto;
+        border: 1px  solid black;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+    }
+
+    #boxVideo{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+
+    #boxVideo iframe{
+        width: 100%;
+        height: 20rem;
+    }
+}
+
+/* 
+
+@media screen and (max-width: 1200px){
+    body{
+        margin: 0;
+        padding: 0 1rem;
+        width: 100%;
+        background-color: rgba(127, 255, 212, 0.322);
+    }
+    header{
+        width: 100%;
+        height: 4rem;
+        background-color: #000;
+    }
+    #video{
+        width: 100%;
+        margin: auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    video{
+        width: 100%;
+        height: 22rem;
+        border-radius: 0px;
+        margin: 0;
+    }
+    #redes a{
+        text-decoration: none;
+        margin: 0 0.4rem;
+        
+    }
+    #boxCard{
+        padding: 1rem;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .card{
+        width: 30%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 0.5rem;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+        margin: 1rem;
+    }
+    .card img{
+        width: 94%;
+        height: 200px;
+        object-fit: cover;
+        margin: 0.5rem;
+        border: 1px  solid black;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+    }
+    
+}
+
+*/
+
+/*
+
+@media screen and (max-width: 900px){
+    body{
+        margin: 0;
+        padding: 0 1rem;
+        width: 100%;
+        background-color: rgba(127, 255, 212, 0.322);
+    }
+    header{
+        width: 100%;
+        height: 4rem;
+        background-color: #000;
+        margin: 0;
+    }
+    #video{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    video{
+        width: 100%;
+        height: 20rem;
+        border-radius: 0px;
+        margin: 0;
+    }
+    #redes a{
+        text-decoration: none;
+        margin: 0 0.4rem;
+    }
+    #boxCard{
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+    }
+    .card{
+        width: 33%;
+        border: 1px solid #fff;
+        border-radius: 10px;
+        padding: 0.25rem;
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.548);
+        margin: 0.5rem;
+    }
+    .card img{
+        width: 96%;
+        height: 150px;
+        object-fit: cover;
+        margin: 0.25rem;
+        border: 1px  solid black;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.548);
+    }
+    #boxVideo{
+        	width: 100%;
+            margin: 0;
+            padding: 1rem;
+    }
+    #boxVideo iframe{
+        height: 25rem;
+    }
+}
+
+*/
+
+/*
+
+@media screen and (max-width: 720px){
+    body{
+        margin: 0;
+        padding: 0rem;
+        width: 100%;
+        background-color: rgba(127, 255, 212, 0.322);
+    }
+    header{
+        width: 100%;
+        height: 4rem;
+        background-color: #000;
+        margin: 0;
+    }
+    #video{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    video{
+        width: 100%;
+        height: 16rem;
+        border-radius: 0px;
+    }
+    #redes a{
+        text-decoration: none;
+        margin: 0 0.4rem;
+    }
+    #boxCard{
+        width: 100%;
+        padding: 0;
+        background-color: transparent;
+        border: none;
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 1rem;
+    }
+    .card{
+        width: 95%;
+        border: 1px solid transparent;
+        border-radius: 0px;
+        padding: 0;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.548);
+        margin: 0.25rem;
+        background-color: transparent;
+    }
+    .card img{
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+        margin: 0.25rem 0;
+        border: 1px  solid black;
+    }
+    #boxVideo{
+        width: 100%;
+        margin: 0;
+        padding: 1rem;
+    }
+    #boxVideo iframe{
+        height: 20rem;
+    }
+}
+*/
